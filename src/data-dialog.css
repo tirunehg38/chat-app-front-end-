@@ -1,0 +1,5 @@
+.community-dialog { width: min(520px, calc(100% - 32px)); max-height: 80vh; overflow-y: auto; padding: 0; color: inherit; }
+.community-dialog::backdrop { background: rgb(10 25 50 / 45%); }
+.community-dialog .question-form-card { margin: 0; }
+.community-dialog > section > .ask-question-toggle { float: right; }
+.community-dialog input, .community-dialog select { width: 100%; margin: 8px 0; padding: 10px; border: 1px solid #dce4ef; border-radius: 8px; }
